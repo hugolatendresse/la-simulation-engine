@@ -1,11 +1,19 @@
 /*
 TODO 1:
 Build a C-based Monte Carlo simulation engine that can generate random samples from relevant probability distributions 
-(e.g., normal, exponential, Poisson) and perform calculations such as percentiles  on these samples.
+(e.g., normal, exponential, Poisson) and perform calculations such as percentiles on these samples.
 
 
 TODO2:
 Simulate an insurance book. Can assume different distirbuttions and different parameters for each policyholder. Will allow calculating capital needed. 
+
+
+TODO3:
+Use statistical techniques to analyze the simulation results. Compute summary statistics, confidence intervals, and risk measures 
+(e.g., Value at Risk or Conditional Tail Expectation) to draw meaningful conclusions about the actuarial problem.
+
+TODO4:
+Optimization (Optional):  include optimization techniques to find optimal strategies or allocations based on the simulation results
  */
 
 #include <stdio.h>
